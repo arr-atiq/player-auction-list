@@ -9,15 +9,24 @@ const PlayerInformation = () => {
     useEffect(() => {
         setPlayers(fakeData);
     },[])
+
+    const [playerCart, setPlayerCart] = useState([]);
+    const handleAddPlayer = (addPlayer) => {
+        const newPlayers = [...playerCart, addPlayer];
+        setPlayerCart(newPlayers);
+    }
     return (
         <div className="player-card">
             <div className="player-info">
             {
-                players.map(player => <DisplayInformation playerInfo= {player}></DisplayInformation> )
+                players.map(player => <DisplayInformation
+                     playerInfo= {player}
+                     handleAddPlayer={handleAddPlayer}
+                     ></DisplayInformation> )
             }
             </div>
             <div className="player-cart">
-                <PlayerCart></PlayerCart>
+                <PlayerCart playerCart= {playerCart}></PlayerCart>
             </div>
         </div>
     );

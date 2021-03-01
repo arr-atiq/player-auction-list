@@ -11,7 +11,9 @@ const DisplayInformation = (props) => {
                 <h4>{nationality}</h4>
                 <h4>{team}</h4>
                 <h4>{salary}</h4>
-                <button className="main-btn">Select Me</button>
+                <button className="main-btn"
+                onClick={()=> props.handleAddPlayer(props.playerInfo)}
+                >Select Me</button>
             </div>
             
         </div>
