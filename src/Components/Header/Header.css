@@ -1,0 +1,23 @@
+.header h1{
+    display: flex;
+    justify-content: center;
+}
+.firstH{
+    color: green;
+}
+.secondH{
+    color: red;
+}
+nav{
+    background-color: green;
+    line-height: 80px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+    font-weight: 300;
+}
