@@ -1,0 +1,14 @@
+.player-card{
+    display: flex;
+    width: 60%;
+}
+.player-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.player-cart{
+    margin-left: 50px;
+    border-left: 1px solid lightgray;
+    box-shadow: 5px 5px 15px lightgray;
+}

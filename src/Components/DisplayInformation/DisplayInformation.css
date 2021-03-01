@@ -1,0 +1,22 @@
+.player-categories{
+    box-shadow: 5px 5px 15px lightgray;
+    margin-left: 50px;
+}
+.player-data{
+    padding: 20px;
+}
+.player-data img{
+    height: 200px;
+}
+.main-btn{
+    background-color: green;
+    width: 150px;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 26px;
+    margin-bottom: 20px;
+}
