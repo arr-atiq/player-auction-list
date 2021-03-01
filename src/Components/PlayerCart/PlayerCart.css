@@ -4,6 +4,12 @@
 .cart-info{
     border: 5px solid lightgreen;
 }
+.cart-info h1{
+    font-size: 40px;
+}
+.cart-mainInfo h3{
+    font-size: 20px;
+}
 .title{
     margin-left: 65px;
 }

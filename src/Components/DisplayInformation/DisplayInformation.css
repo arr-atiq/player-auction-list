@@ -1,12 +1,17 @@
 .player-categories{
     box-shadow: 5px 5px 15px lightgray;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .player-data{
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.player-data h3{
+    font-size: 20px;
 }
 .player-data img{
     height: 200px;
+    margin-bottom: 20px;
 }
 .main-btn{
     background-color: green;
@@ -20,4 +25,8 @@
     margin-left: 26px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+.addbtn{
+    margin-left: 50px;
+    margin-top: 20px;
 }
