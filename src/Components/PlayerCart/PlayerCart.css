@@ -7,3 +7,23 @@
 .title{
     margin-left: 65px;
 }
+.info-div{
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px 15px lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+}
+.cart-mainInfo{
+    margin: 20px;
+    background-color: green;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px red;
+    padding: 20px;
+}
+.cart-mainInfo h3{
+    color: white;
+}
